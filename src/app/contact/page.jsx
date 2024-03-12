@@ -33,7 +33,7 @@ const Page = () => {
                <form name="contact" method="POST"
                      className="h-3/4 lg:h-full lg:w-1/2 bg-red-50 rounded-xl text-xl flex flex-col gap-8 justify-center p-12 md:p-18Z xl:p-24"
                      data-netlify="true">
-                   <input type="hidden" name="form-name" value="contact"/>
+                   <input type="hidden" name="contact" value="contact"/>
                    <span>Dear Amir,</span>
                    <textarea rows={6} className="bg-transparent border-b-2 border-b-black outline-none resize-none"
                              required/>
