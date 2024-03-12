@@ -30,14 +30,19 @@ const Page = () => {
                        😊
                    </div>
                </div>
-               <form name="contact" method="POST" className="h-3/4 lg:h-full lg:w-1/2 bg-red-50 rounded-xl text-xl flex flex-col gap-8 justify-center p-12 md:p-18Z xl:p-24" netlify>
+               <form name="contact" method="POST"
+                     className="h-3/4 lg:h-full lg:w-1/2 bg-red-50 rounded-xl text-xl flex flex-col gap-8 justify-center p-12 md:p-18Z xl:p-24"
+                     data-netlify="true">
+                   <input type="hidden" name="form-name" value="contact"/>
                    <span>Dear Amir,</span>
-                   <textarea rows={6} className="bg-transparent border-b-2 border-b-black outline-none resize-none" required/>
+                   <textarea rows={6} className="bg-transparent border-b-2 border-b-black outline-none resize-none"
+                             required/>
                    <span>My email address is:</span>
                    <input type="email" className="bg-transparent border-b-2 border-b-black outline-none" required/>
                    <span>Regards</span>
                    <button className="bg-purple-200 rounded font-semibold text-gray-600 p-4">Send</button>
-                   {success && <span className="text-green-600 font-semibold">Your message has been sent successfully!</span>}
+                   {success &&
+                       <span className="text-green-600 font-semibold">Your message has been sent successfully!</span>}
                    {error && <span className="text-red-600 font-semibold">Something went wrong!</span>}
                </form>
            </div>
