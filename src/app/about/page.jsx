@@ -178,7 +178,7 @@ const About = () => {
                                     </div>
                                     <div className="p-3 text-sm italic">My main work was creating web-sites.
                                     </div>
-                                    <div className="p-3 text-red-400 text-sm font-semibold">January 2020 - December 2020</div>
+                                    <div className="p-3 text-red-400 text-sm font-semibold">January 2018 - March 2019</div>
                                     <div className="bg-white w-fit rounded p-1 text-sm font-semibold">Reklamator</div>
 
 
