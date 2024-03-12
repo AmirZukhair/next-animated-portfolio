@@ -18,7 +18,7 @@ const About = () => {
                     initial={{y: "-200vh"}}
                     animate={{y: "0%"}}
                     transition={{duration: 1}}>
-            <div className="h-full overflow-scroll lg:flex" ref={containerRef}>
+            <div className="h-full overflow-y-scroll lg:flex" ref={containerRef}>
                 <div className="px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-64 lg:px-0 w-full md:w-2/3 xl:w-1/2">
                     <div className="flex flex-col gap-12 justify-center">
                         <h1 className="font-bold text-2xl">
