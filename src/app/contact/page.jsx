@@ -34,7 +34,7 @@ const Page = () => {
                       className="h-3/4 lg:h-full lg:w-1/2 bg-red-50 rounded-xl text-xl flex flex-col gap-8 justify-center p-12 md:p-18Z xl:p-24"
                       data-netlify="true">
                     <span>Dear Amir,</span>
-                    <textarea rows={6} className="bg-transparent border-b-2 border-b-black outline-none resize-none" id="form-message"
+                    <textarea rows={6} className="bg-transparent border-b-2 border-b-black outline-none resize-none" name="message" id="form-message"
                               required/>
                     <span>My email address is:</span>
                     <input type="email" name="email" id="form-email" className="bg-transparent border-b-2 border-b-black outline-none" required/>
