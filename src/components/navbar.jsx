@@ -9,9 +9,9 @@ import {motion} from "framer-motion";
 
 const links = [
     {url: '/', title: 'Home'},
-    {url: '/about', title: 'About'},
-    {url: '/portfolio', title: 'Portfolio'},
-    {url: '/contact', title: 'Contact'},
+    {url: 'about', title: 'About'},
+    {url: 'portfolio', title: 'Portfolio'},
+    {url: 'contact', title: 'Contact'},
 ]
 
 const Navbar = () => {
@@ -84,17 +84,14 @@ const Navbar = () => {
             </div>
             {/*SOCIAL*/}
             <div className="hidden md:flex gap-4 w-1/3 justify-end">
-                <Link href="/">
+                <Link href="https://github.com/AmirZukhair">
                  <Image src="/github.png" alt="" width={24} height={24}/>
                 </Link>
-                <Link href="/">
+                <Link href="https://www.instagram.com/fvbh86/">
                  <Image src="/instagram.png" alt="" width={24} height={24}/>
                 </Link>
-                <Link href="/">
+                <Link href="https://www.facebook.com/profile.php?id=100009745516302">
                  <Image src="/facebook.png" alt="" width={24} height={24}/>
-                </Link>
-                <Link href="/">
-                 <Image src="/linkedin.png" alt="" width={24} height={24}/>
                 </Link>
             </div>
 
