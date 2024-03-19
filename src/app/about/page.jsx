@@ -24,10 +24,12 @@ const About = () => {
                         <h1 className="font-bold text-2xl">
                             I'm Amir, a web developer.
                         </h1>
-                        <p className="text-lg">My experience of web developing is over 4 years. I usually make Responsive Web Site for clients. I also help making or update your OpenCart and Wordpress site too. Please feel free to contact me :)
+                        <p className="text-lg">My experience of web developing is over 4 years. I usually make Responsive Web Site for clients. I also help making or update your Wordpress, OpenCart and Shopify site too. Please feel free to contact me :)
                         </p>
                         <span className="italic">
-                           What's the difference between Spider-Man and Peter Parker? Spider-Man gets the girl.
+                           {/*What's the difference between Spider-Man and Peter Parker? Spider-Man gets the girl.*/}
+                           {/* All your answers will be questioned.*/}
+                            It began as a wish, became an adventure, and ended as the ultimate road trip.
                         </span>
                         <div className="self-end">
                             <svg width="256" height="97" viewBox="0 0 256 97" fill="none"

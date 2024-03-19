@@ -65,8 +65,8 @@ const Page = () => {
                               required />
                     <span>My email address is:</span>
                     <input type="email" name="user_email"  className="bg-transparent border-b-2 border-b-black outline-none" required/>
-                    <span>Regards</span>
-                    <button type="submit" className="bg-purple-200 rounded font-semibold text-gray-600 p-4">Send</button>
+                    <span>Best Regards,</span>
+                    <button type="submit" className="bg-purple-300 hover:bg-purple-200 rounded font-semibold text-gray-600 p-4">Send</button>
                     {success &&
                         <span className="text-green-600 font-semibold">Your message has been sent successfully!</span>}
                     {error && <span className="text-red-600 font-semibold">Something went wrong!</span>}
