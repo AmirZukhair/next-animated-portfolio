@@ -24,7 +24,9 @@ const About = () => {
                         <h1 className="font-bold text-2xl">
                             I'm Amir, a web developer.
                         </h1>
-                        <p className="text-lg">My experience of web developing is over 4 years. I usually make Responsive Web Site for clients. I also help making or update your Wordpress, OpenCart and Shopify site too. Please feel free to contact me :)
+                        <p className="text-lg">
+                            {/*My experience of web developing is over 4 years. I usually make Responsive Web Site for clients. I also help making or update your Wordpress, OpenCart and Shopify site too. Please feel free to contact me :)*/}
+                            ウェブ開発の経験は4年以上です。私は通常、クライアントのためにレスポンシブWebサイトを作成します。また、Wordpress、OpenCart、Shopifyサイトの制作や更新もお手伝いします。お気軽にご連絡ください。
                         </p>
                         <span className="italic">
                            {/*What's the difference between Spider-Man and Peter Parker? Spider-Man gets the girl.*/}

@@ -82,7 +82,7 @@ const Portfolio = () => {
                                         {item.desc}
                                     </p>
                                     <Link href={item.link} className="flex justify-end">
-                                        <button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">View project</button>
+                                        <button className="p-2 text-sm md:p-2 md:text-md lg:p-4 lg:text-lg bg-white hover:bg-black text-black hover:text-white transition-all font-semibold m-4 rounded">View project</button>
                                     </Link>
                                 </div>
                             </div>
