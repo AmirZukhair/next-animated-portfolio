@@ -5,11 +5,8 @@ import { useRef } from "react";
 const About = () => {
     const containerRef = useRef();
     const { scrollYProgress } = useScroll({ container: containerRef });
-
-
-
-     const skillRef = useRef();
-     const isSkillRefInView = useInView(skillRef, { margin: "-100px" });
+    const skillRef = useRef();
+    const isSkillRefInView = useInView(skillRef, { margin: "-100px" });
 
      const experienceRef = useRef();
      const isExperienceRefInView = useInView(experienceRef, { margin: "-100px" });
