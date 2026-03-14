@@ -88,13 +88,22 @@ const Navbar = () => {
       </div>
       {/*SOCIAL*/}
       <div className="flex gap-2 sm:gap-4 w-1/3 justify-end">
-        <Link href="https://github.com/AmirZukhair">
+        <Link
+          target="_blank"
+          href="https://www.linkedin.com/in/amir-zukhair-0091712a9/"
+        >
+          <Image src="/linkedin.png" alt="" width={24} height={24} />
+        </Link>
+        <Link target="_blank" href="https://github.com/AmirZukhair">
           <Image src="/github.png" alt="" width={24} height={24} />
         </Link>
-        <Link href="https://www.facebook.com/profile.php?id=100009745516302">
+        <Link
+          target="_blank"
+          href="https://www.facebook.com/profile.php?id=100009745516302"
+        >
           <Image src="/facebook.png" alt="" width={24} height={24} />
         </Link>
-        <Link href="/Amir-Zukhair-Resume.pdf" target="_blank">
+        <Link href="/Amir-Zukhair-Resume-2026.pdf" target="_blank">
           <svg
             width="24"
             height="24"
